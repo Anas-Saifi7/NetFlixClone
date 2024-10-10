@@ -1,0 +1,188 @@
+ *{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    background-image: url(background.jpg);
+    height: 80vh;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.main .box{
+    height: 80vh;
+    width: 100;
+    opacity: 0.44;
+    background-color: black;
+    position:absolute;
+    top:0;
+}
+
+nav{ 
+    max-width: 80vw;
+    display: flex;
+    margin: auto;
+    justify-content:space-between;
+    align-items: center;   
+     height: 65px;
+
+}
+nav button{
+    position: relative;
+    z-index: 10;
+}
+.text{
+    color: white;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    h1{
+        font-size: 55px;
+    }
+    h3{
+        font-size: 40px;
+        margin-top: 18px;
+    }
+    p{
+        font-size: 20px;
+        margin: 16px 0px 0px;
+    }
+}
+div .button{
+    text-align: center;
+    font-size: 25px;
+    padding: 12px;
+    margin-top: 10px;
+    background-color: none;   
+}  
+ 
+ .part2{
+position: relative;
+justify-content: center;
+height: 100%;
+background-color: black;
+box-sizing: border-box; 
+min-height: auto;
+padding: 3.5rem ;
+margin-top: -60px;
+} 
+h2{
+    font-size: 25px;
+    color: white;
+}  
+div .card{
+    background-color: black;
+    color: white;
+    padding-left:110px ;
+}  
+.col1,.col2 ,.col3, .col4{
+    border: 1px solid red;
+    height:230px;
+    width: 230px;
+    border-radius: 15px;
+    margin: 30px;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(43, 46, 134, 0.019);
+    flex-direction: column;
+    position: relative;
+}
+.col2{
+    left: 245px ;
+    bottom: 255px;
+    }
+    .col3{
+        left: 490px;
+        bottom: 515px;
+    }
+    .col4{
+        left:730px;
+        bottom: 775px;
+    }
+ .container1{
+    background-color: black;
+    height: 300px;
+    margin-top: -800px;  
+} 
+ #button2{
+    width: 1100px;
+    text-align: left; 
+}
+.text1{
+    background-color: black;
+    height: 500px;
+    text-align: center;
+    color: white;  
+   h4{
+    margin-top: 90px;
+  } 
+}
+ .button1{
+    text-align: center;
+    font-size: 25px;
+    padding: 12px;
+    margin-top: 26px; 
+} 
+ div #corner{
+background-color: black;;
+text-align: left;
+color: white;
+ padding-left: 100px;
+margin-top: 100px; 
+} 
+    div #first{
+     flex-direction: column;
+     list-style-type: none; 
+     position: relative;
+     padding-left: 120px;
+     top: 15px;
+     line-break: 100px;;
+  a{
+    color: white;
+    line-height: 2.5;
+  }
+    }  
+
+     div #second{
+        flex-direction: column;
+        list-style-type: none; 
+        position: relative;
+        padding-left: 410px;
+        bottom: 150px;
+        a{
+            color: white;
+            line-height: 2.5;
+        }
+       }
+
+       div #third{
+        color: white;
+        flex-direction: column;
+        list-style-type: none; 
+        position: relative;
+        padding-left: 710px;
+        bottom: 320px;
+        a{
+            color: white;
+            line-height: 2.5;
+        }
+       } 
+
+       div #fourth{
+        color: white;
+        flex-direction: column;
+        list-style-type: none; 
+        position: relative;
+        padding-left: 950px;
+        bottom:480px;
+        a{
+            color: white; 
+            line-height: 3;
+        }
+       } 
+       div .choose1{
+        margin-top: -300px;
+       }
